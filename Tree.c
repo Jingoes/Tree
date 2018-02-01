@@ -14,8 +14,8 @@ int main()
 	printf("\n一次输出所有叶子节点:\n");
 	while(ll<=rr)
 	{
-		if((l[sq[l]]==-1)&&((r[sq[l])==-1))
-			printf("%d",v[sq[l]]);
+		if((l[sq[ll]]==-1)&&(r[s[ll]]==-1))
+			printf("%d",v[sq[ll]]);
 		x=sq[ll];ll++;
 		if(l[x]!=-1)  sq[++rr]=l[x];
 		if(r[x]!=-1)  sq[++rr]=r[x];
